@@ -45,4 +45,8 @@ class MovieItemActivity : AppCompatActivity() {
         finish()
         return false
     }
+
+    override fun onBackPressed() {
+        onSupportNavigateUp()
+    }
 }

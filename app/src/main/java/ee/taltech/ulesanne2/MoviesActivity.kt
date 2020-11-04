@@ -60,4 +60,7 @@ class MoviesActivity : AppCompatActivity(), CellClickListener {
         finish()
     }
 
+    override fun onBackPressed() {
+        onSupportNavigateUp()
+    }
 }

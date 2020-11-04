@@ -34,6 +34,7 @@ class MoviesAdapter(val list: List<Movie>, private val cellClickListener: CellCl
         holder.itemView.setOnClickListener {
             cellClickListener.onCellClickListener(position, currentMovie.imdbID)
         }
+
     }
 }
 
